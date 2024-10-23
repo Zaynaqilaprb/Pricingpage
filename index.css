@@ -1,0 +1,233 @@
+:root {
+    --maincolor : rgb(167, 255, 35) ;
+    --secondcolor : rgb(1, 6, 19);
+    --bgcolor: rgb(244, 250, 255);
+}
+
+* {
+    background-color: rgb(244, 250, 255);
+}
+
+.title {
+
+}
+
+.title h1 {
+    font-size: 33px;
+    font-family: "Poppins", system-ui;
+    font-weight: 800;
+}
+
+.nav-item {
+    margin-left: -220px;
+}
+
+.nav-item a {
+    font-size: 17px;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    color: var(--secondcolor);
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 2px;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px solid var(--maincolor);
+    transition: 0.3s;
+    padding-bottom: 3px;
+}
+
+.register {
+}
+
+.register a {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.login {
+    color: var(--secondcolor);
+}
+
+.login:hover {
+    color: var(--maincolor);
+}
+
+.signup {
+    color: var(--maincolor);
+    padding: 13px 18px 16px 18px;
+    background: var(--secondcolor);
+    border-radius: 40px;
+}
+
+.signup:hover {
+    color: rgba(255, 255, 255, 0.676);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bigtitle {
+    margin-bottom: 30px;
+}
+
+.bigtitle h1 {
+    color: var(--secondcolor);
+    font-size: 68px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    line-height: 88px;
+}
+
+.billsection {
+}
+
+.billsection a {
+    color: var(--secondcolor);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    text-decoration: none;
+    background-color: var(--bgcolor);
+    border: 2px solid var(--secondcolor);
+    padding: 10px 15px 12px 15px;
+    border-radius: 13px;
+    margin-right: 15px
+}
+
+.billsection a:hover {
+    background-color: var(--secondcolor);
+    color: white;
+    transition: 0.4s;
+    border: 2px solid var(--maincolor);
+}
+
+.middlesection {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -330px;
+}
+
+.titleprice {
+    border: 2px solid rgba(128, 128, 128, 0.397);
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+.titleprice:hover {
+    border: 2px solid var(--maincolor);
+}
+
+.titleprice h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.titleprice h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.titleprice h1 span {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+}
+
+.titleprice .p1 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.titleprice a {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    text-decoration: none;
+    color: var(--secondcolor);
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 20px;
+    display: block;
+    color: white;
+}
+
+.button1 {
+    color: white;
+    background-color: black;
+}
+
+.button1:hover {
+    color: black;
+    background-color: var(--maincolor);
+    border: 0px;
+}
+
+.titleprice a span {
+    color: black;
+}
+
+.titleprice h2 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.p2 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+    margin-left: 20px;
+}
+
+.titleprice ul li {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+    margin-left: 20px;
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 30px;
+}
+
+.paperclip {
+    width: 18px;
+    height: 18px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    color: rgb(109, 215, 51);
+}
+
+.allprice {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
